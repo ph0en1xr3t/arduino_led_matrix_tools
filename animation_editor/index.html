@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LED Matrix Animation Editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>LED Matrix Animator</h1>
+        <div>
+            <button id="importBtn">Import C</button>
+            <button id="exportBtn">Export C</button>
+        </div>
+    </header>
+    <div class="main-container">
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <h3>Frames</h3>
+                <button id="addFrameBtn" title="Add Frame">+</button>
+            </div>
+            <ul class="frame-list" id="frameList">
+            </ul>
+        </div>
+        <div class="editor-area">
+            <div class="matrix-grid" id="matrixGrid">
+            </div>
+            <div class="controls">
+                <button id="prevFrameBtn">&lt;</button>
+                <button id="playBtn">Play</button>
+                <button id="stopBtn" style="display:none;">Stop</button>
+                <button id="nextFrameBtn">&gt;</button>
+                <button id="clearBtn" class="danger">Clear</button>
+                <button id="dupBtn">Duplicate</button>
+                <button id="delBtn" class="danger">Delete</button>
+            </div>
+            <div class="delay-container">
+                <label>Delay: <span id="delayValue">55</span>ms</label>
+                <input type="range" id="frameDelay" class="delay-slider" min="10" max="500" value="55">
+            </div>
+        </div>
+    </div>
+
+    <div class="output-panel">
+        <textarea id="outputCode"
+            placeholder="Generated C code will appear here... Paste C code here to import."></textarea>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
