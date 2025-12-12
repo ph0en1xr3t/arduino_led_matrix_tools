@@ -1,5 +1,5 @@
 # Creating and Playing LED Matrix Animations for Arduino® Uno Q 
-
+## Detailed blog on: www.codeembedded.com
 A set of tools designed to create, edit, and play animations for a 13x8 LED matrix. Whether you prefer a visual editor or working with ASCII art, these tools have you covered.
 
 ## The Toolkit
