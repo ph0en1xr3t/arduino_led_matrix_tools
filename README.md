@@ -29,7 +29,7 @@ The easiest way to get started is with the visual editor.
 
 ---
 
-## 2. Playing Animations (`parse_hex.py`)
+## 2. Playing Animations (`parse_animate.py`)
 
 Once you have your animation exported as a C header file (e.g., `animation.h`), you can preview it directly in your terminal.
 
