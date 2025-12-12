@@ -37,7 +37,7 @@ Once you have your animation exported as a C header file (e.g., `animation.h`), 
 Run the script with Python 3:
 
 ```bash
-python3 parse_hex.py [filename] [options]
+python3 parse_animate.py [filename] [options]
 ```
 
 ### Arguments
@@ -46,7 +46,8 @@ python3 parse_hex.py [filename] [options]
 
 ### Example
 ```bash
-python3 parse_hex.py my_anim.h --ascii
+#if unicode support is not present else without --ascii
+python3 parse_animate.py animation.h --ascii 
 ```
 
 ### Input Format
