@@ -29,7 +29,7 @@ The easiest way to get started is with the visual editor.
 
 ---
 
-## 2. Playing Animations (`parse_animate.py`)
+## 2. Playing Animations
 
 Once you have your animation exported as a C header file (e.g., `animation.h`), you can preview it directly in your terminal.
 
@@ -62,7 +62,7 @@ const uint32_t led_animation[][5] = {
 
 ---
 
-## 3. ASCII Art Generator (`generate_animation.py`)
+## 3. ASCII Art Generator
 
 If you prefer text editors, you can draw your frames using ASCII art and convert them.
 
